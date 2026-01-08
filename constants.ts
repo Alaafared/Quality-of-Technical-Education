@@ -30,12 +30,12 @@ export const ADMIN_MAP: Record<string, string> = {
 export const AREAS: Area[] = [
   { id: 'north', name: 'شمال الإسماعيلية', adminId: 'admin1@gmail.com' },
   { id: 'south', name: 'جنوب الإسماعيلية', adminId: 'admin2@gmail.com' },
-  { id: 'abusoweir', name: 'منطقة أبو صوير', adminId: 'admin3@gmail.com' },
-  { id: 'kassasin', name: 'منطقة القصاصين', adminId: 'admin4@gmail.com' },
-  { id: 'tall', name: 'منطقة التل الكبير', adminId: 'admin5@gmail.com' },
-  { id: 'fayed', name: 'منطقة فايد', adminId: 'admin6@gmail.com' },
-  { id: 'qantara_west', name: 'منطقة القنطرة غرب', adminId: 'admin7@gmail.com' },
-  { id: 'qantara_east', name: 'منطقة القنطرة شرق', adminId: 'admin8@gmail.com' },
+  { id: 'abusoweir', name: 'ادارة أبو صوير', adminId: 'admin3@gmail.com' },
+  { id: 'kassasin', name: 'ادارة القصاصين', adminId: 'admin4@gmail.com' },
+  { id: 'tall', name: 'ادارة التل الكبير', adminId: 'admin5@gmail.com' },
+  { id: 'fayed', name: 'ادارة فايد', adminId: 'admin6@gmail.com' },
+  { id: 'qantara_west', name: 'ادارة القنطرة غرب', adminId: 'admin7@gmail.com' },
+  { id: 'qantara_east', name: 'ادارة القنطرة شرق', adminId: 'admin8@gmail.com' },
 ];
 
 const createEmptyChecklist = (): Checklist => ({
