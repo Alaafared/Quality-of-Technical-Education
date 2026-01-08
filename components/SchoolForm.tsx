@@ -93,7 +93,7 @@ const SchoolForm: React.FC<SchoolFormProps> = ({ school, onSave, onCancel }) => 
             onClick={() => onSave(school.id, checklist)}
             className="px-10 py-3 bg-slate-900 text-white rounded-xl font-black hover:bg-blue-600 shadow-xl flex items-center transition-all transform hover:scale-[1.02]"
           >
-            <Save size={18} className="ml-2" /> حفظ وإرسال للسحابة
+            <Save size={18} className="ml-2" /> حفظ  
           </button>
         </div>
       </div>
