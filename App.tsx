@@ -280,7 +280,7 @@ const App: React.FC = () => {
             <div className="bg-blue-600 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-6 text-white shadow-xl">
               <LogIn size={32} />
             </div>
-            <h1 className="text-2xl font-black text-slate-800">جودة الإسماعيلية</h1>
+            <h1 className="text-2xl font-black text-slate-800">الوحدة الفرعية لتحسين وضمان جودة التعليم الفني بالاسماعيلية </h1>
             <p className="text-slate-400 text-sm mt-2">تسجيل دخول المسؤولين</p>
           </div>
 
