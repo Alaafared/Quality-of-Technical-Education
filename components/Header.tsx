@@ -31,9 +31,12 @@ const Header: React.FC<HeaderProps> = ({ user }) => {
             <p className="text-sm font-bold text-gray-700 leading-none mb-1">{user.name}</p>
             <p className="text-xs text-gray-500 capitalize">{user.role === 'superadmin' ? 'مدير النظام' : 'مسؤول منطقة'}</p>
           </div>
-          <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center text-blue-600">
-            <UserIcon size={20} />
-          </div>
+          <div className="bg-white-600 w-10 h-10 rounded-2xl flex items-center justify-center mx-auto mb-6 text-white shadow-xl">
+            <img 
+                src="logo.jpg" // ضع مسار الصورة هنا (مثلاً في مجلد public)
+                alt="Logo" 
+                className="w-full h-full object-contain"
+              />            </div>
         </div>
       </div>
     </header>
