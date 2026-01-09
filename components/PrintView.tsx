@@ -23,9 +23,11 @@ const PrintView: React.FC<PrintViewProps> = ({ school }) => {
           <p className="text-lg font-bold border-b border-black inline-block px-4 pb-1">{school.name}</p>
         </div>
         <div className="text-left">
-          <div className="w-16 h-16 border border-black flex items-center justify-center text-[10px] font-bold text-center leading-tight mb-1">
-            شعار<br/>المديرية
-          </div>
+            <img 
+                src="logo.jpg" // ضع مسار الصورة هنا (مثلاً في مجلد public)
+                alt="Logo" 
+                className="w-full h-full object-contain"
+              />            </div>
           <p className="text-[10px] font-bold">كود التقرير: QR-{school.id.split('-').pop()}</p>
         </div>
       </div>
@@ -91,11 +93,11 @@ const PrintView: React.FC<PrintViewProps> = ({ school }) => {
           <p className="border-t border-black pt-2 w-32 mx-auto">........................</p>
         </div>
         <div>
-          <p className="mb-10">مدير إدارة التعليم الفني</p>
+          <p className="mb-10">مسئول الجودة بالمدرسة</p>
           <p className="border-t border-black pt-2 w-32 mx-auto">........................</p>
         </div>
         <div>
-          <p className="mb-10">مدير عام المديرية</p>
+          <p className="mb-10">مدير المدرسة </p>
           <p className="border-t border-black pt-2 w-32 mx-auto">........................</p>
         </div>
       </div>
