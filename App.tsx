@@ -277,9 +277,12 @@ const App: React.FC = () => {
       <div className="min-h-screen flex items-center justify-center bg-slate-100 p-4 rtl">
         <div className="max-w-md w-full bg-white rounded-[2rem] shadow-2xl p-10 border border-slate-200">
           <div className="text-center mb-8">
-            <div className="bg-blue-600 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-6 text-white shadow-xl">
-              <LogIn size={32} />
-            </div>
+            <div className="bg-white-600 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-6 text-white shadow-xl">
+            <img 
+                src="logo.jpg" // ضع مسار الصورة هنا (مثلاً في مجلد public)
+                alt="Logo" 
+                className="w-full h-full object-contain"
+              />            </div>
             <h1 className="text-2xl font-black text-slate-800">الوحدة الفرعية لتحسين وضمان جودة التعليم الفني بالاسماعيلية </h1>
             <p className="text-slate-400 text-sm mt-2">تسجيل دخول المسؤولين</p>
           </div>
